@@ -1,2 +1,2 @@
-# kang87y.github.io
-About me
+# kang87y
+Wow
