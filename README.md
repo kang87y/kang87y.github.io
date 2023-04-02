@@ -1,2 +1,2 @@
 # kang87y
-Wow
+Daechung **creat-react-app**eulo mandeulgo daechung **npm run build**haeseo daechung mandeun project.
