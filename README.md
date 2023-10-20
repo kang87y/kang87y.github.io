@@ -2,7 +2,7 @@
 I don't know.
 
 ## Project
-- [Discord Harry Potter Bot](https://koreanbots.dev/bots/947376659533824090)
+- [Discord Harry Potter Bot](https://harrybot.kro.kr)
 - Other personal projects
 
 ## Contact
