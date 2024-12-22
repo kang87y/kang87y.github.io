@@ -1,0 +1,75 @@
+:root {
+    --brand-color: #4A60EF;
+    --brand-color-light: #6A7FFA;
+    --brand-color-dark: #2E3A9D;
+    --text-color: #333;
+    --background-light: #323234;
+}
+
+@font-face {
+    font-family: 'SUIT-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'SUIT-Bold', 'SUIT-Regular', sans-serif;
+    color: var(--text-color);
+    background-color: #212122;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    color: var(--brand-color);
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+code {
+    padding: 0.25rem;
+    border-radius: 5px;
+    font-family: "Consolas", "Sans Mono", "Courier", "monospace";
+    font-size: 0.75rem;
+}
+
+pre>code {
+    margin: 1rem auto;
+    white-space: pre;
+    max-width: 850px;
+    max-height: 500px;
+    overflow: auto !important;
+}
+
+.hljs-ln-numbers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: right;
+    color: #ccc;
+    vertical-align: top;
+    padding-right: 5px;
+}
+
+.hljs-ln-code {
+    padding-left: 12px;
+    text-indent: 0.75rem;
+}
