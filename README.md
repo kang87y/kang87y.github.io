@@ -15,7 +15,6 @@ Built with **SvelteKit** and **TypeScript**, this site represents my journey, pa
 
 - **Framework:** [SvelteKit](https://kit.svelte.dev/)
 - **Language:** TypeScript
-- **Hosting:** [Vercel](https://vercel.com/)
 
 ## 📂 Project Structure
 
