@@ -15,7 +15,7 @@
 		margin-top: 100px;
 		color: white;
 		text-align: center;
-		padding: 1rem;
+		padding: 1rem 0;
 		bottom: 0;
 		width: 100%;
 	}
