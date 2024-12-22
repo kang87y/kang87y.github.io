@@ -20,7 +20,7 @@
 			<h1>
 				Hi there!<br />
 				I'm <span class="highlight">kang87y</span>,<br />
-				a Rookie <span class="highlight">Web Developer</span>.
+				a Rookie <span class="highlight">Full-Stack</span> Developer.
 			</h1>
 			<div class="buttons">
 				<a href="https://github.com/kang87y" class="icon-link" target="_blank">
