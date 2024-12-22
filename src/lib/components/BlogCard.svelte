@@ -4,9 +4,9 @@
 
 <div class="card">
 	<h2>{post.title}</h2>
-	<p>{post.description}</p>
+	<p class="description">{post.description}</p>
 	<p class="date">{post.date}</p>
-	<a href={`/blog/${post.id}`} class="read-more">Read More →</a>
+	<a href={`/blog/${post.slug}`} class="read-more">Read More →</a>
 </div>
 
 <style>
@@ -30,6 +30,14 @@
 	.date {
 		font-size: 0.875rem;
 		color: #888;
+	}
+
+	.description {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
 	}
 
 	.read-more {

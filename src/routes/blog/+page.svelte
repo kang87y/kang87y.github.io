@@ -1,20 +1,13 @@
-<script>
+<script lang="ts">
 	import BlogCard from '../../lib/components/BlogCard.svelte';
 
-	const posts = [
-		{
-			id: 'commit-message',
-			title: '커밋 메시지',
-			description: '커밋 메시지 작성법에 대해 알아봅시다.',
-			date: '2024-12-22'
-		}
-	];
+	export let data: { posts: { title: string; date: string; description: string; slug: string }[] };
 </script>
 
 <div class="blog">
 	<h1>Blog Posts</h1>
 	<div class="posts">
-		{#each posts as post}
+		{#each data.posts as post}
 			<BlogCard {post} />
 		{/each}
 	</div>

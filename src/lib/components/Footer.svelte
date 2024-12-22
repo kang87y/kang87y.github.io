@@ -1,5 +1,4 @@
 <script>
-	// You can add any JavaScript logic here if needed
 </script>
 
 <footer>

@@ -1,5 +1,5 @@
-export const load = async () => {
-	const id = 'commit-message';
+export const load = async ({ params }) => {
+	const { id } = params;
 	const post = await import(`../../../lib/posts/${id}.svx`);
 	const { title, date } = post.metadata;
 

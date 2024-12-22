@@ -10,7 +10,7 @@
 	import EmailLogo from '../lib/img/email.svg';
 
 	import Heart from '../lib/img/heart.svg';
-	import ToonationLogo from '../lib/img/toonation.png';
+	// import ToonationLogo from '../lib/img/toonation.png';
 </script>
 
 <Navbar />
