@@ -246,7 +246,7 @@
 				through the following platforms.
 			</p>
 			<a href="https://ko-fi.com/kang87y" class="donateBtn" target="_blank"
-				><img src={Heart} alt="heart" class="inline-svg" />Donate on Toonation</a
+				><img src={Heart} alt="heart" class="inline-svg" />Donate on Ko-fi</a
 			>
 		</div>
 	</div>
