@@ -46,14 +46,12 @@
 			<span class="introduce">
 				<img src={Profile} alt="profile" class="profile" />
 				<p>
-					I'm a passionate <span class="highlight">full-stack</span> developer with a strong
-					interest in creating user-friendly web applications. My journey in programming began with
-					curiosity and quickly grew into a lifelong passion for
-					<span class="highlight">problem-solving</span>
-					and continuous learning. I believe technology has the power to improve lives, and I strive
-					to be a part of that change. Whether it's simplifying complex workflows or building interactive
-					user experiences, I thrive on turning <span class="highlight">ideas</span> into reality through
-					code.
+					I'm a passionate <span class="highlight">full-stack</span> developer with a strong interest
+					in creating user-friendly web applications. My journey in programming began with curiosity
+					and quickly grew into a lifelong passion for problem-solving and continuous learning. I believe
+					technology has the power to improve lives, and I strive to be a part of that change. Whether
+					it's simplifying complex workflows or building interactive user experiences, I thrive on turning
+					ideas into reality through code.
 				</p>
 			</span>
 		</div>
@@ -247,7 +245,7 @@
 				<span class="highlight">donate</span>
 				through the following platforms.
 			</p>
-			<a href="https://toon.at/donate/kang87y" class="donateBtn" target="_blank"
+			<a href="https://ko-fi.com/kang87y" class="donateBtn" target="_blank"
 				><img src={Heart} alt="heart" class="inline-svg" />Donate on Toonation</a
 			>
 		</div>
